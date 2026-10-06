@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Smart Coinlet Firm | SCF</title>
+
+<style>
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#07140d;
+    color:white;
+    min-height:100vh;
+}
+
+header{
+    background:#0d2417;
+    padding:25px 15px;
+    text-align:center;
+    border-bottom:1px solid #1d5c38;
+}
+
+header h1{
+    font-size:30px;
+}
+
+header p{
+    margin-top:8px;
+    color:#b8d8c3;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    background:linear-gradient(135deg,#07140d,#123d25);
+}
+
+.hero h2{
+    font-size:34px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    color:#c8ddd0;
+    margin-bottom:25px;
+}
+
+button{
+    background:#19a463;
+    color:white;
+    border:none;
+    padding:13px 22px;
+    border-radius:8px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#147e4d;
+}
+
+.container{
+    width:92%;
+    max-width:850px;
+    margin:30px auto;
+}
+
+.card{
+    background:#0d2417;
+    padding:25px;
+    border-radius:14px;
+    margin-bottom:20px;
+    border:1px solid #1d5c38;
+}
+
+.card h2{
+    margin-bottom:12px;
+}
+
+.announcement{
+    background:#123521;
+    border-left:4px solid #19a463;
+    padding:14px;
+    margin-top:10px;
+    border-radius:5px;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    color:#9fb8a8;
+    background:#061009;
+    margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Smart Coinlet Firm</h1>
+    <p>Smart ideas. Smart opportunities.</p>
+</header>
+
+<section class="hero">
+
+    <h2>Welcome to Smart Coinlet Firm</h2>
+
+    <p>
+        Building opportunities for young people across Africa.
+    </p>
+
+    <button onclick="getStarted()">
+        Get Started
+    </button>
+
+</section>
+
+<div class="container">
+
+    <div class="card">
+
+        <h2>About SCF</h2>
+
+        <p>
+            Smart Coinlet Firm is an online platform designed
+            to provide opportunities, information and activities
+            for our growing community.
+        </p>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Announcements</h2>
+
+        <div class="announcement">
+            Welcome to Smart Coinlet Firm.
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+
+    <p>© 2026 Smart Coinlet Firm</p>
+
+</footer>
+
+<script>
+
+function getStarted(){
+
+    alert("Welcome to Smart Coinlet Firm!");
+
+}
+
+</script>
+
+</body>
+</html>
